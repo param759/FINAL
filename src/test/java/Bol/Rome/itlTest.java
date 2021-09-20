@@ -9,4 +9,14 @@ public class itlTest {
 	{
 		System.out.println("dom is done");
 	}
+	@Test(groups= {"smoke"})
+	public void name()
+	{
+		System.out.println("dom is not done");
+	}
+	@Test(groups= {"smoke"})
+	public void shame()
+	{
+		System.out.println("dom is not done");
+	}
 }
